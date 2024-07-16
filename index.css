@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    margin: 4px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.globo {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+nav {
+    margin: 10px 0;
+    border-top: 2px solid; color: #f5f6f7;
+    border-bottom: 2px solid; color: #f5f6f7;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.g1{color: #c4160c;}
+.oglobo{color: #1e4d9c; }
+.valor{color: #026665;}
+.ge{color: #08aa47;}
+.cartola{color: #e3662a;}
+.globoplay{color: #fa1b45;}
+.dropz{ color: #fe7bbd;}
+.gshow{ color: #ee7e01;}
+.quem{color: #343434;}
+.receitas{color: #a81d84;}
+
+main {
+    height: 85vh;
+    display: flex;
+}
+
+.noticia-principal h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #C4160C;
+}
+
+.noticias-esquerda {
+    width: 65%;
+}
+
+.noticias-esquerda > .noticias-secundarias > div {
+    display: flex;
+}
+
+.noticias-esquerda img {
+    width: 200px;
+}
+
+.noticias-direita {
+    background-color: green;
+    width: 35%;
+}
+
+.linha-divisoria {
+    height: 2px;
+    background-color: lightgray;
+}
